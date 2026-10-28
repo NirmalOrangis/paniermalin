@@ -20,8 +20,21 @@ $storeFilter = $criteria->stores ? ['stores' => implode(',', $criteria->stores)]
         <?= $h->location()?->type === 'country' ? 'de France' : 'en ' . $h->e($locationName) ?></span>, comparées pour vous.</h1>
     <p class="hero__text">
         Carrefour, Auchan, E.Leclerc, Lidl, Intermarché, Aldi… <strong><?= $h->plural($overview->total, 'promotion', 'promotions') ?></strong>
-        en cours dans <strong><?= count($overview->storeFacets) ?> enseignes</strong>. Trouvez le prix le plus bas en un coup d'œil.
+        en cours dans <strong><?= $h->plural(count($overview->storeFacets), 'enseigne', 'enseignes') ?></strong>. Trouvez le prix le plus bas en un coup d'œil.
     </p>
+
+    <?php if ($overview->total === 0): ?>
+        <?php $parent = $h->location()?->parent !== null ? $h->location($h->location()->parent) : null; ?>
+        <div class="notice">
+            <p><strong>Aucune promotion relevée en ce moment pour <?= $h->e($locationName) ?>.</strong></p>
+            <p>Nous n'affichons que des prix réels, relevés en magasin ou saisis depuis les catalogues. Élargissez votre zone :
+                <?php if ($parent !== null && $parent->type !== 'country'): ?>
+                    <a href="<?= $h->e($h->url('/', ['loc' => $parent->code])) ?>"><?= $h->e($parent->name) ?></a> ou
+                <?php endif; ?>
+                <a href="<?= $h->e($h->url('/', ['loc' => 'FR'])) ?>">toute la France</a>.
+            </p>
+        </div>
+    <?php endif; ?>
 
     <?php if ($prefs->isReturning()): ?>
         <p class="welcome">

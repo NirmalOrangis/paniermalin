@@ -17,7 +17,7 @@ return [
     'per_page' => 24,
     // Generated sample promotions (data/promotions.json). Set to false once
     // real sources (data/sources/) provide enough offers.
-    'demo_data' => true,
+    'demo_data' => false,
     'open_prices' => [
         'api_url' => 'https://prices.openfoodfacts.org/api/v1/prices',
         // A price seen on day D is shown until D + validity_days - 1.

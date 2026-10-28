@@ -1,0 +1,15 @@
+# Exemple de saisie manuelle. Copiez les lignes utiles dans manual.csv (même en-tête).
+# Séparateur ; — virgule décimale acceptée — dates AAAA-MM-JJ ou JJ/MM/AAAA — lignes # ignorées.
+# product      : code-barres EAN (13 chiffres, sur l'emballage) ou identifiant libre en minuscules (ex. tomates-grappe-1kg)
+# category     : fruits-legumes, viandes-poissons, cremerie, epicerie-salee, epicerie-sucree, boissons, surgeles,
+#                hygiene-beaute, entretien, bebe, animaux, electronique, electromenager, maison-jardin
+# store        : carrefour, auchan, leclerc, intermarche, lidl, aldi, super-u, monoprix, franprix, netto, grand-frais, picard
+# price        : prix payé par article une fois l'offre appliquée (ex. « 2e à -50 % » sur 4 € → 3)
+# quantity/unit: contenu d'un article (g, kg, ml, cl, l ou piece) pour calculer le prix au kg / L
+# mechanic     : texte affiché (vide = « Remise immédiate ») — loyalty_card : oui si l'offre passe par la carte
+# zones        : FR, code région (IDF) ou départements (91 92), séparés par des espaces ou des virgules
+product;name;brand;category;store;price;regular_price;quantity;unit;pack;mechanic;min_quantity;loyalty_card;starts;ends;zones
+3017620422003;Pâte à tartiner noisettes cacao;Nutella;epicerie-sucree;leclerc;3,29;4,19;400;g;400 g;;1;non;27/10/2026;02/11/2026;91
+tomates-grappe-1kg;Tomates grappe;Origine France;fruits-legumes;lidl;1,99;2,99;1;kg;1 kg;;1;non;2026-10-29;2026-11-04;FR
+spaghetti-500g;Spaghetti n°5;Barilla;epicerie-salee;carrefour;1,13;1,50;500;g;500 g;2e à -50 %;2;non;2026-10-28;2026-11-09;IDF
+lessive-liquide-40;Lessive liquide 40 lavages;Ariel;entretien;intermarche;11,54;16,49;40;piece;40 lavages;-30 % sur la carte Intermarché;1;oui;2026-10-28;2026-11-09;91 92 94

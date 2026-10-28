@@ -1,0 +1,16 @@
+[
+    {"id": "fruits-legumes", "name": "Fruits & légumes", "emoji": "🥦", "color": "#dff3e4"},
+    {"id": "viandes-poissons", "name": "Viandes & poissons", "emoji": "🥩", "color": "#fde3e1"},
+    {"id": "cremerie", "name": "Crèmerie & fromages", "emoji": "🧀", "color": "#fff4cf"},
+    {"id": "epicerie-salee", "name": "Épicerie salée", "emoji": "🥫", "color": "#fde8d7"},
+    {"id": "epicerie-sucree", "name": "Épicerie sucrée", "emoji": "🍫", "color": "#f1e4da"},
+    {"id": "boissons", "name": "Boissons", "emoji": "🥤", "color": "#dceefe"},
+    {"id": "surgeles", "name": "Surgelés", "emoji": "🧊", "color": "#e1f3fb"},
+    {"id": "hygiene-beaute", "name": "Hygiène & beauté", "emoji": "🧴", "color": "#f3e5f5"},
+    {"id": "entretien", "name": "Entretien", "emoji": "🧽", "color": "#e6f4f1"},
+    {"id": "bebe", "name": "Bébé", "emoji": "🍼", "color": "#fde7f0"},
+    {"id": "animaux", "name": "Animaux", "emoji": "🐾", "color": "#efe9df"},
+    {"id": "electronique", "name": "High-tech", "emoji": "📱", "color": "#e3e8f8"},
+    {"id": "electromenager", "name": "Électroménager", "emoji": "🔌", "color": "#e8eaed"},
+    {"id": "maison-jardin", "name": "Maison & jardin", "emoji": "🏡", "color": "#e9f2dc"}
+]

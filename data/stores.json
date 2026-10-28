@@ -1,0 +1,14 @@
+[
+    {"id": "carrefour", "name": "Carrefour", "color": "#1e5bc6", "text": "#ffffff", "format": "Hypermarché", "priceIndex": 1.00, "loyalty": "sur la carte Carrefour", "categories": "*"},
+    {"id": "auchan", "name": "Auchan", "color": "#d6001c", "text": "#ffffff", "format": "Hypermarché", "priceIndex": 0.97, "loyalty": "en cagnotte Auchan", "categories": "*"},
+    {"id": "leclerc", "name": "E.Leclerc", "color": "#005ca9", "text": "#ffffff", "format": "Hypermarché", "priceIndex": 0.95, "loyalty": "en Ticket E.Leclerc", "categories": "*"},
+    {"id": "intermarche", "name": "Intermarché", "color": "#b5121b", "text": "#ffffff", "format": "Supermarché", "priceIndex": 0.98, "loyalty": "sur la carte Intermarché", "categories": "*"},
+    {"id": "lidl", "name": "Lidl", "color": "#0050aa", "text": "#fff000", "format": "Hard discount", "priceIndex": 0.92, "loyalty": "avec Lidl Plus", "categories": "*"},
+    {"id": "aldi", "name": "Aldi", "color": "#00205b", "text": "#ffffff", "format": "Hard discount", "priceIndex": 0.92, "loyalty": null, "categories": "*"},
+    {"id": "super-u", "name": "Super U", "color": "#e3051b", "text": "#ffffff", "format": "Supermarché", "priceIndex": 0.98, "loyalty": "sur la carte U", "categories": "*"},
+    {"id": "monoprix", "name": "Monoprix", "color": "#111111", "text": "#ffffff", "format": "Centre-ville", "priceIndex": 1.12, "loyalty": "sur la carte Monoprix", "categories": ["fruits-legumes", "viandes-poissons", "cremerie", "epicerie-salee", "epicerie-sucree", "boissons", "surgeles", "hygiene-beaute", "entretien", "bebe", "animaux", "maison-jardin"]},
+    {"id": "franprix", "name": "Franprix", "color": "#e5007d", "text": "#ffffff", "format": "Proximité", "priceIndex": 1.15, "loyalty": null, "categories": ["fruits-legumes", "viandes-poissons", "cremerie", "epicerie-salee", "epicerie-sucree", "boissons", "surgeles", "hygiene-beaute", "entretien", "bebe", "animaux"]},
+    {"id": "netto", "name": "Netto", "color": "#ffd400", "text": "#1a1a1a", "format": "Hard discount", "priceIndex": 0.94, "loyalty": null, "categories": ["fruits-legumes", "viandes-poissons", "cremerie", "epicerie-salee", "epicerie-sucree", "boissons", "surgeles", "hygiene-beaute", "entretien", "bebe", "animaux"]},
+    {"id": "grand-frais", "name": "Grand Frais", "color": "#2e7d32", "text": "#ffffff", "format": "Produits frais", "priceIndex": 0.96, "loyalty": null, "categories": ["fruits-legumes", "viandes-poissons", "cremerie", "epicerie-salee", "epicerie-sucree", "boissons"]},
+    {"id": "picard", "name": "Picard", "color": "#1d3c8f", "text": "#ffffff", "format": "Surgelés", "priceIndex": 1.05, "loyalty": "avec Picard & Moi", "categories": ["surgeles"]}
+]

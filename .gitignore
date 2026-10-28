@@ -1,0 +1,10 @@
+/vendor/
+# Regenerated daily by bin/import-open-prices.php
+/data/sources/open-prices.json
+/data/sources/*.tmp
+/.idea/
+/.vscode/
+/.env
+*.log
+.DS_Store
+Thumbs.db

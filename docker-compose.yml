@@ -1,0 +1,13 @@
+# Local development: docker compose up  →  http://localhost:8080
+services:
+  web:
+    image: php:8.3-cli
+    working_dir: /app
+    command: php -S 0.0.0.0:8080 -t public public/index.php
+    ports:
+      - "8080:8080"
+    volumes:
+      - ./:/app
+    environment:
+      APP_ENV: dev
+      APP_DEBUG: "1"

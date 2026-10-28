@@ -1,0 +1,27 @@
+{
+    "name": "paniermalin/promo-compare",
+    "description": "Comparateur des promotions des supermarchés français (Carrefour, Auchan, Leclerc, Lidl, Intermarché…).",
+    "type": "project",
+    "license": "proprietary",
+    "require": {
+        "php": ">=8.2",
+        "ext-json": "*",
+        "ext-mbstring": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    },
+    "scripts": {
+        "serve": "php -S localhost:8000 -t public public/index.php",
+        "test": "php tests/run.php",
+        "demo-data": "php bin/generate-demo-data.php",
+        "import": "php bin/import-open-prices.php",
+        "check-sources": "php bin/check-sources.php"
+    },
+    "config": {
+        "optimize-autoloader": true,
+        "sort-packages": true
+    }
+}
